@@ -1,0 +1,34 @@
+.banner{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.button-img{
+    border: 20px solid tomato;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.button{
+    background-color: orange;
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* mobai size */
+@media screen and (max-width: 576px) {
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+/* medium device */
+@media screen and (min-width: 577px) and (max-width:992px){
+    .banner{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+   
+    
